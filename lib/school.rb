@@ -23,4 +23,5 @@ class School
         @roster.collect do |grades, students|
             students.sort
         end
+    end 
 end
