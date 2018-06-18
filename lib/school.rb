@@ -13,8 +13,9 @@ class School
     def grade(grade)
         @roster.collect do |grades, students|
             if grades == grade
-                students.compact
+                students
             end
         end
     end
+    students.compact
 end
