@@ -8,7 +8,7 @@ class School
     roster = {}
 
     def roster
-        puts roster
+        puts self.roster
     end
 
 end
