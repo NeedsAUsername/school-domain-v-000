@@ -10,6 +10,7 @@ class School
         if @roster[grade]
             @roster[grade] << student
         else @roster[grade] = student
+        end 
     end
 
     def grade(grade)
@@ -23,5 +24,6 @@ class School
         @roster.collect do |grades, students|
             students.sort
         end
-    end 
+    end
+
 end
