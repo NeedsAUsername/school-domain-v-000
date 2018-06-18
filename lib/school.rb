@@ -16,7 +16,7 @@ class School
                 students
             end
         end
-        @roster.compact
+        @roster[students].compact
     end
 
 end
