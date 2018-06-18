@@ -16,6 +16,7 @@ class School
                 students
             end
         end
+        @roster.compact
     end
 
 end
