@@ -11,12 +11,12 @@ class School
     end
 
     def grade(grade)
-        @roster.collect do |grades, students|
-            if grades == grade
-                students
-            end
-        end
-        @roster[students].compact
+        @roster[grade]
     end
 
+    def sort
+        @roster.each do |grade, students|
+            students.sort
+    end
+    @roster
 end
