@@ -5,6 +5,6 @@ class School
         @name = name
     end
 
-    roster = []
+    self.roster = []
 
-end 
+end
