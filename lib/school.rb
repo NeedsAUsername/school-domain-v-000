@@ -24,6 +24,3 @@ class School
             students.sort
         end
 end
-
-school = School.new("example")
-puts school.roster
