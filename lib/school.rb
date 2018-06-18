@@ -8,10 +8,10 @@ class School
     roster = {}
 
     def roster
-        puts self.roster
+        self.roster
     end
 
 end
 
 school = School.new
-school.roster
+puts school.roster
