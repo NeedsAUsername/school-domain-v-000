@@ -16,5 +16,6 @@ class School
                 students
             end
         end
-    end 
+        @roster.chomp
+    end
 end
