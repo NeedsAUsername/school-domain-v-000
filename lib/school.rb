@@ -5,6 +5,10 @@ class School
         @name = name
     end
 
-    self.roster = []
+    roster = {}
+
+    def roster
+        puts roster
+    end
 
 end
