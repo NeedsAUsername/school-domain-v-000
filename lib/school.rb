@@ -7,11 +7,11 @@ class School
         @roster = {}
     end
 
-    def add_student(grade, student)
+    def add_student(student, grade)
         if @roster[grade]
             @roster[grade] << student
         else @roster[grade] = [student]
-        end 
+        end
     end
 
     def grade(grade)
