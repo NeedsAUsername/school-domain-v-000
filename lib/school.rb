@@ -14,7 +14,7 @@ class School
         @roster.collect do |grades, students|
             if grades == grade
                 students
-                @roster.compact
+                students.compact
             end
         end
     end
