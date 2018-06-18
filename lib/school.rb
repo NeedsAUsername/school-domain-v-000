@@ -8,6 +8,5 @@ class School
 
     def add_student(Student, grade)
         @roster[grade] ? @roster[grade] << Student : @roster[grade] = [student]
-        end
     end
 end
