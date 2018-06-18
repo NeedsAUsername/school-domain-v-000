@@ -8,7 +8,8 @@ class School
     roster = {}
 
     def roster
-        self.roster
+        @roster = roster
+        @roster
     end
 
 end
