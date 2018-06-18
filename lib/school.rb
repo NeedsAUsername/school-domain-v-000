@@ -12,3 +12,6 @@ class School
     end
 
 end
+
+school = School.new
+school.roster
