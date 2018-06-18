@@ -6,7 +6,7 @@ class School
         @roster = {}
     end
 
-    def add_student(Student, grade)
+    def add_student(student, grade)
         @roster[grade] ? @roster[grade] << Student : @roster[grade] = [student]
     end
 end
