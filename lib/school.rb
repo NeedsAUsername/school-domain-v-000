@@ -15,7 +15,6 @@ class School
             if grades == grade
                 students
             end
-            students.compact
         end
     end
 
