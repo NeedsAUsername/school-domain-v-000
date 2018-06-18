@@ -11,6 +11,7 @@ class School
         if @roster[grade]
             @roster[grade] << student
         else @roster[grade] = [student]
+        end 
     end
 
     def grade(grade)
